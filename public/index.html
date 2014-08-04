@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/ol.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <style>
+      html, body {
+        font-family: sans-serif;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+      #toolbar {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 4px;
+        background: white;
+        border: 1px solid #eee;
+        -webkit-border-radius: 2px 2px 2px 2px;
+        border-radius: 2px 2px 2px 2px;
+        -webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      }
+      #position {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 4px 8px;
+        background: white;
+        border: 1px solid #eee;
+        -webkit-border-radius: 2px 2px 2px 2px;
+        border-radius: 2px 2px 2px 2px;
+        -webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        font-size: 20px;
+      }
+    </style>
+    <script src="js/ol-simple.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Civmap WIP</title>
+  </head>
+  <body>
+    <div id="map" class="map">
+      <div id="popup"></div>
+    </div>
+    <div id="toolbar">
+      <form class="form-inline" role="form">
+        <div class="form-group form-group-sm">
+          <button type="button" id="jumpHome" class="btn btn-primary">Center</button>
+          <select id="jump" class="form-control"><option disabled>Jump to...</option></select>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="showInactive"/>
+            Inactive
+          </label>
+        </div>
+      </form>
+    </div>
+    <div id="position"></div>
+
+    <script type="text/javascript">
+var projection = new ol.proj.Projection({
+  code: 'minecraft',
+  units: 'block',
+  extent: [-1000000, -1000000, 1000000, 1000000],
+  global: true
+});
+ol.proj.addProjection(projection);
+
+var mousePositionControl = new ol.control.MousePosition({
+  coordinateFormat: ol.coordinate.createStringXY(4),
+  // projection: 'EPSG:4326',
+  // comment the following two lines to have the mouse position
+  // be placed within the map.
+  // className: 'custom-mouse-position',
+  // target: document.getElementById('mouse-position'),
+  undefinedHTML: '&nbsp;'
+});
+var size = 8000;
+var map = new ol.Map({
+  // renderer: 'webgl',
+  target: 'map',
+  controls: [
+    // mousePositionControl
+  ],
+  layers: [
+    new ol.layer.Tile({
+      source:  new ol.source.TileImage({
+        attributions: [
+          new ol.Attribution({
+            html: 'Player map data compiled by pavel_the_hitman at r/civtransport, interface by GipsyKing'
+          }),
+          ol.source.OSM.DATA_ATTRIBUTION
+        ],
+        // tileUrlFunction: ol.TileUrlFunction.createFromTemplates(ol.TileUrlFunction.expandUrl('http://civcraft.slimecraft.eu/tiles/{z}/tile_{x}_{-y}_normal.png')),
+        tileUrlFunction: ol.TileUrlFunction.createFromTemplates(ol.TileUrlFunction.expandUrl('tiles/slimecraft/{z}/{x}/{y}.png')),
+        // tileUrlFunction: ol.TileUrlFunction.createFromTemplates(ol.TileUrlFunction.expandUrl('http://localhost:8888/v2/civcraft/{z}/{x}/{y}.png')),
+        // tileGrid: new ol.tilegrid.XYZ({maxZoom: 14}),
+        // tilePixelRatio: 2,
+        projection: 'EPSG:3857',
+        maxZoom: 12,
+        // minZoom: 4,
+        // extent: [-size, -size, size, size],
+        wrapX: true
+      })
+    }),
+
+
+    
+    // new ol.layer.Tile({
+    //   source: new ol.source.TileDebug({
+    //     projection: 'EPSG:3857',
+    //     tileGrid: new ol.tilegrid.XYZ({
+    //       maxZoom: 22
+    //     })
+    //   })
+    // })
+  ],
+  view: new ol.View({
+    center: [0, 0],
+    zoom: 2,
+    minZoom: 1,
+    maxZoom: 12
+  })
+});
+
+var position = $('#position');
+map.on('pointermove', function(e) {
+  position.text(e.coordinate.map(function(p, index) {
+    return parseInt(p * 0.001635310 * (index ? -1 : 1));
+  }));
+  window.console.log(e.coordinate);
+});
+
+
+
+
+var featureOverlay = new ol.FeatureOverlay({
+  style: new ol.style.Style({
+    fill: new ol.style.Fill({
+      color: 'rgba(255, 255, 255, 0.2)'
+    }),
+    stroke: new ol.style.Stroke({
+      color: '#ffcc33',
+      width: 2
+    }),
+    image: new ol.style.Circle({
+      radius: 7,
+      fill: new ol.style.Fill({
+        color: '#ffcc33'
+      })
+    })
+  })
+});
+featureOverlay.setMap(map);
+
+var modify = new ol.interaction.Modify({
+  features: featureOverlay.getFeatures(),
+  // the SHIFT key must be pressed to delete vertices, so
+  // that new vertices can be drawn at the same position
+  // of existing vertices
+  deleteCondition: function(event) {
+    return ol.events.condition.shiftKeyOnly(event) &&
+        ol.events.condition.singleClick(event);
+  }
+});
+map.addInteraction(modify);
+
+var draw; // global so we can remove it later
+function addInteraction() {
+  draw = new ol.interaction.Draw({
+    features: featureOverlay.getFeatures(),
+    type: /** @type {ol.geom.GeometryType} */ ('LineString')
+  });
+  map.addInteraction(draw);
+}
+
+var typeSelect = document.getElementById('type');
+
+
+/**
+ * Let user change the geometry type.
+ * @param {Event} e Change event.
+ */
+// typeSelect.onchange = function(e) {
+//   map.removeInteraction(draw);
+//   addInteraction();
+// };
+
+// addInteraction();
+
+
+
+
+
+
+
+
+
+
+var createTextStyle = function(feature, resolution, dom) {
+  var fontSize = resolution < 5000 ? 16 : 12;
+  return new ol.style.Text({
+    // textAlign: align,
+    // textBaseline: baseline,
+    font: 'bold ' + fontSize + 'px Arial',
+    text: feature.get('name') || '?',
+    fill: new ol.style.Fill({color: '#000000'}),
+    stroke: new ol.style.Stroke({color: '#ffffff', width: 2}),
+    // offsetX: offsetX,
+    // offsetY: offsetY,
+    // rotation: rotation
+  });
+};
+
+// Points
+var createPointStyleFunction = function() {
+  var showInactive = $('#showInactive').prop('checked');
+  var maxResolution = 10000;
+  return function(feature, resolution) {
+    if (resolution > maxResolution 
+      || (!showInactive && feature.get('code') && feature.get('status') !== 'OK')
+      || ['mushroom biome', 'Nether biome'].indexOf(feature.get('name')) !== -1) {
+      return [];
+    }
+    var color = feature.get('status') === 'OK' ? 'rgba(128, 128, 128, 0.5)' : 'rgba(255, 0, 0, 0.5)';
+    var style = new ol.style.Style({
+      image: new ol.style.Circle({
+        radius: 10,
+        fill: new ol.style.Fill({color: color}),
+        stroke: new ol.style.Stroke({color: 'gray', width: 1})
+      }),
+      text: createTextStyle(feature, resolution, {})
+    });
+    return [style];
+  };
+};
+
+var citiesSource = new ol.source.GeoJSON({
+  projection: 'EPSG:4326',
+  url: 'cities.geojson'
+});
+
+citiesSource.on('change', function(e) {
+  citiesSource.un('change', arguments.callee);
+  var select = $('#jump');
+  e.target.getFeatures().sort(function(a, b) {
+    var textA = a.get('name'), textB = b.get('name');
+    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+  }).forEach(function(feature) {
+    if (!feature.get('code') || !feature.get('name')) {
+      return;
+    }
+    select.append($('<option value="' + feature.get('code') + '">').text(feature.get('name')));
+  });
+});
+var vectorPoints = new ol.layer.Vector({
+  source: citiesSource,
+  style: createPointStyleFunction()
+});
+
+map.addLayer(vectorPoints);
+
+var element = document.getElementById('popup');
+var popup = new ol.Overlay({
+  element: element,
+  positioning: 'bottom-center',
+  stopEvent: false
+});
+map.addOverlay(popup);
+map.on('click', function(evt) {
+  $(element).popover('destroy');
+
+  var feature = map.forEachFeatureAtPixel(evt.pixel,
+      function(feature, layer) {
+        return feature;
+      });
+  if (feature) {
+    var geometry = feature.getGeometry();
+    var coord = geometry.getCoordinates();
+    popup.setPosition(coord);
+    var html = $('<strong>' + feature.get('name') + '</strong>');
+    if (feature.get('flag')) {
+      var img = $(feature.get('flag'));
+      img.css({height: '40px'});
+      html.append('<br/>').append(img);
+    }
+    if (feature.get('reddit')) {
+      html.append('<br/>').append($(feature.get('reddit')));
+    }
+    if (feature.get('wiki')) {
+      html.append('<br/>').append($(feature.get('wiki')));
+    }
+    if (feature.get('map of town')) {
+      html.append('<br/>').append($(feature.get('map of town')));
+    }
+    $(element).popover({
+      'placement': 'top',
+      'html': true,
+      'content': html
+    });
+    $(element).popover('show');
+  }
+});
+
+
+
+$('#showInactive').click(function(e) {
+  vectorPoints.setStyle(createPointStyleFunction());
+});
+
+$('#jumpHome').click(function() {
+  var view = map.getView();
+  var duration = 1000;
+  var start = +new Date();
+  var pan = ol.animation.pan({
+    duration: duration,
+    source: /** @type {ol.Coordinate} */ (view.getCenter()),
+    start: start
+  });
+  var bounce = ol.animation.bounce({
+    duration: duration,
+    resolution: 39135.75848201024,
+    start: start
+  });
+  map.beforeRender(pan, bounce);
+  view.setCenter([0, 0]);
+});
+
+$('#jump').change(function(e) {
+  var view = map.getView();
+  var duration = 1000;
+  var start = +new Date();
+  var pan = ol.animation.pan({
+    duration: duration,
+    source: /** @type {ol.Coordinate} */ (view.getCenter()),
+    start: start
+  });
+  var zoom = ol.animation.zoom({
+    duration: duration,
+    resolution: view.getResolution(),
+    start: start
+  });
+  map.beforeRender(pan, zoom);
+
+  var code = $(e.target).val();
+  var feature = citiesSource.getFeatures().filter(function(feature) {
+    return feature.get('code') === code;
+  })
+
+  if (feature[0].get('status') !== 'OK' && !$('#showInactive').prop('checked')) {
+    $('#showInactive').click();
+  }
+
+  view.setCenter(feature[0].getGeometry().getCoordinates());
+  view.setZoom(6);
+});
+
+    </script>
+  </body>
+</html>
