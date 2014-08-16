@@ -371,6 +371,21 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
+					-1337342.2468774442,
+					-852119.9913231425
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lehmdorf",
+				"code": "Ld",
+				"status": "Inactive"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
 					-1401781.3333333333,
 					-765833.3333333333
 				]
@@ -2136,6 +2151,33 @@
 				"coordinates": [
 					2083066.6666666665,
 					6726467.333333333
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Harvest",
+				"status": "OK"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2841442.5845400076,
+					3729946.6013268977
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Santas Domingas",
+				"status": "OK"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-240148.5960708665,6423343.435476461
 				]
 			}
 		}
