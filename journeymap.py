@@ -21,6 +21,8 @@ def crop(z, x, y, xoffset, yoffset, xdest, ydest):
 			public/tiles/%d/%d/%d.png \
 			public/tiles/%d/%d/%d.png" % (z, xdest, ydest, z, xdest, ydest, z, xdest, ydest),
 			shell=True)
+		# remove temp file:
+		os.remove("public/tiles/%d/%d/temp_%d.png" % z, xdest, ydest)
 
 
 for y in range(-129, 129):
