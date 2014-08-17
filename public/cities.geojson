@@ -403,8 +403,8 @@
 	{
 		"type": "Feature",
 		"properties": {
-			"name": "Constantinople",
-			"code": "Co",
+			"name": "Istanbul",
+			"code": "Is",
 			"abandoned": false,
 			"type": "city"
 		},
@@ -983,7 +983,7 @@
 			"type": "Point",
 			"coordinates": [
 				2604,
-				2003
+				2103
 			]
 		}
 	},
