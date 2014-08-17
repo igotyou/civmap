@@ -14,27 +14,73 @@ var createTextStyle = function(feature, resolution, dom) {
   });
 };
 
+var visible = (function() {
+  var visible = ['rails'];
+  var r = {
+    isVisible: function(name) {
+      return visible.indexOf(name) !== -1;
+    },
+    hide: function(name) {
+      if (r.isVisible(name)) {
+        visible.splice(visible.indexOf(name), 1);
+      }
+    },
+    show: function(name) {
+      if (!r.isVisible(name)) {
+        visible.push(name);
+      }
+    }
+  };
+  return r;
+})();
 // Points
-var showInactive = false;
 var createPointStyleFunction = function() {
   return function(feature, resolution) {
-    if ((resolution > 16 && (feature.get('status') !== 'OK' || !feature.get('code')))
-      || (!showInactive && feature.get('code') && feature.get('status') !== 'OK')
-      || ['mushroom biome', 'Nether biome'].indexOf(feature.get('name')) !== -1) {
+    if (!visible.isVisible('abandoned') && feature.get('abandoned')) {
       return [];
     }
-    var color = feature.get('status') === 'OK' ? 'rgba(256, 256, 256, 0.5)' : 'rgba(255, 0, 0, 0.5)';
+    if (!visible.isVisible('biomes') && feature.get('type') === PointType.biome) {
+      return [];
+    }
+
+    // if (resolution > 16 && [PointType.country, PointType.state, PointType.region, PointType.city].indexOf(feature.get('type')) === -1) {
+    //   return [];
+    // }
+    
+    if (feature.get('type') === PointType.biome) {
+      return [new ol.style.Style({
+        image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+          anchor: [0.5, 0.5],
+          opacity: 1,
+          src: 'img/' + feature.get('name') + '.png',
+          // size: [16, 16]
+        }))
+      })];
+    }
+
     var style = {
       text: createTextStyle(feature, resolution, {})
     };
     
-    if (resolution > 16 && (feature.get('status') === 'OK' || feature.get('code'))) {
+    var color;
+    if ([PointType.country, PointType.state, PointType.region, PointType.city].indexOf(feature.get('type')) !== -1) {
+      color = feature.get('abandoned') ? 'rgba(255, 0, 0, 0.5)' : 'rgba(256, 256, 256, 0.5)';
+    } else if (feature.get('type') === PointType.farm) {
+      color = 'rgba(256, 256, 0, 0.5)';
+    } else if (feature.get('type') === PointType.biome) {
+      color = 'rgba(0, 256, 0, 0.5)';
+    } else {
+      color = 'rgba(256, 256, 256, 0.25)';
+    }
+
+    if (resolution > 8 && feature.get('code')) {
       style.image = new ol.style.Circle({
         radius: 15,
         fill: new ol.style.Fill({color: color}),
         stroke: new ol.style.Stroke({color: 'gray', width: 1})
       });
     }
+    
     return [new ol.style.Style(style)];
   };
 };
@@ -108,15 +154,65 @@ var clickHandler = function(evt) {
   }
 };
 
-exports.init = function(map) {
+var map;
+exports.init = function(_map) {
+  map = _map;
   map.addLayer(vectorPoints);
 
   map.addOverlay(popup);
   map.on('click', clickHandler);
 };
 
-exports.toggleInactive = function(show) {
-  showInactive = !showInactive;
+exports.toggleVisible = function(name, show) {
+  if (visible.isVisible(name)) {
+    visible.hide(name);
+  } else {
+    visible.show(name);
+  }
   vectorPoints.setStyle(createPointStyleFunction());
-  return showInactive;
+  return visible.isVisible(name);
 };
+
+exports.jump = function(code) {
+  var view = map.getView();
+  var duration = 1000;
+  var start = +new Date();
+  var pan = ol.animation.pan({
+    duration: duration,
+    source: /** @type {ol.Coordinate} */ (view.getCenter()),
+    start: start
+  });
+  var zoom = ol.animation.zoom({
+    duration: duration,
+    resolution: view.getResolution(),
+    start: start
+  });
+  map.beforeRender(pan, zoom);
+
+  
+  var feature = citiesSource.getFeatures().filter(function(feature) {
+    return feature.get('code') === code;
+  });
+
+  if (feature[0].get('status') !== 'OK' && !visible.isVisible('abandoned')) {
+    visible.show('abandoned');
+  }
+
+  view.setCenter(feature[0].getGeometry().getCoordinates());
+  view.setZoom(6);
+};
+
+var PointType = {
+  'country': 'country',
+  'state': 'state',
+  'region': 'region', // less precise
+  'city': 'city',
+  'neighbourhoood': 'neighbourhoood',
+  'town': 'town',
+  'farm': 'farm',
+
+  'biome': 'biome',
+  'locality': 'locality' // anything that doesn't fit elsewhere
+}
+
+exports.PointType = PointType;

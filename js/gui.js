@@ -1,7 +1,14 @@
+var pointLayer = require('./pointLayer.js');
 module.exports = function(map) {
   $('#showInactive').click(function(e) {
     $('#showInactive').find('.glyphicon-ok').css({
-      opacity: require('./pointLayer.js').toggleInactive() ? 1 : 0
+      opacity: pointLayer.toggleVisible('abandoned') ? 1 : 0
+    });
+  });
+
+  $('#showBiome').click(function(e) {
+    $('#showBiome').find('.glyphicon-ok').css({
+      opacity: pointLayer.toggleVisible('biomes') ? 1 : 0
     });
   });
   
@@ -27,33 +34,9 @@ module.exports = function(map) {
     view.setCenter([0, 0]);
   });
 
+
   $('#jump').change(function(e) {
-    var view = map.getView();
-    var duration = 1000;
-    var start = +new Date();
-    var pan = ol.animation.pan({
-      duration: duration,
-      source: /** @type {ol.Coordinate} */ (view.getCenter()),
-      start: start
-    });
-    var zoom = ol.animation.zoom({
-      duration: duration,
-      resolution: view.getResolution(),
-      start: start
-    });
-    map.beforeRender(pan, zoom);
-
-    var code = $(e.target).val();
-    var feature = citiesSource.getFeatures().filter(function(feature) {
-      return feature.get('code') === code;
-    })
-
-    if (feature[0].get('status') !== 'OK' && !showInactive) {
-      showInactive = true;
-    }
-
-    view.setCenter(feature[0].getGeometry().getCoordinates());
-    view.setZoom(6);
+    pointLayer.jump($(e.target).val());
   });
 
   // Allow Bootstrap dropdown menus to have forms/checkboxes inside, 
