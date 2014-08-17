@@ -46,6 +46,9 @@ var createPointStyleFunction = function() {
     // if (resolution > 16 && [PointType.country, PointType.state, PointType.region, PointType.city].indexOf(feature.get('type')) === -1) {
     //   return [];
     // }
+    if (resolution > 16 && [PointType.farm, PointType.locality].indexOf(feature.get('type')) !== -1) {
+      return [];
+    }
     
     if (feature.get('type') === PointType.biome) {
       return [new ol.style.Style({
