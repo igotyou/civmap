@@ -78,7 +78,7 @@ var clickHandler = function(evt) {
       function(feature, layer) {
         return feature;
       });
-  if (feature) {
+  if (feature && feature.getGeometry().getType() === 'Point' && feature.get('name')) {
     var geometry = feature.getGeometry();
     var coord = geometry.getCoordinates();
     popup.setPosition(coord);
@@ -103,6 +103,8 @@ var clickHandler = function(evt) {
       'content': html
     });
     $(element).popover('show');
+  } else if (feature) {
+    // console.log(JSON.stringify(feature.getGeometry().getCoordinates()), feature.getProperties());
   }
 };
 

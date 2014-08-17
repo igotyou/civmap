@@ -37,8 +37,9 @@ module.exports = function(map) {
       type: /** @type {ol.geom.GeometryType} */ ('LineString')
     });
     map.addInteraction(draw);
+    var geojson = new ol.format.GeoJSON();
     draw.on('drawend', function(e) {
-      var geometry = ol.format.GeoJSON.writeLineStringGeometry_(e.feature.getGeometry());
+      var geometry = geojson.writeFeature(e.feature);
       var origin = prompt('origin');
       var destination = prompt('destination');
       
@@ -53,4 +54,8 @@ module.exports = function(map) {
       console.log(JSON.stringify(feature));
     });
   }
+
+  window.addInteraction = addInteraction;
+
+  // map.addInteraction(new ol.interaction.Select());
 };
