@@ -8,7 +8,7 @@ exports.init = function(map) {
 	  target: document.getElementById('position'),
 	  undefinedHTML: '&nbsp;',
 	  coordinateFormat: function(coordinate) {
-	    return Math.floor(coordinate[0]) + ',' + Math.floor(coordinate[1]);
+	    return Math.floor(coordinate[0]) + ',' + Math.floor(coordinate[1] * -1);
 	  }
 	}));
 };
