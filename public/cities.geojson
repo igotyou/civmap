@@ -1,2185 +1,2186 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "",
-				"code": "?"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1298853.3333333333,
-					-3929031.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Aeon",
-				"code": "Ae",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivAeon\" target=\"_new\">r/CivAeon<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-7352000,
-					857733.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Alkagora",
-				"code": "Alk",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3359251.333333333,
-					1164066.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Altorum",
-				"code": "Alt",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivAltorum\" target=\"_new\">r/CivAltorum<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-919000,
-					-4595000
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ancora",
-				"code": "Anc",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/civcraftancora\" target=\"_new\">r/civcraftancora<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/ancora&apos;\" target=\"_new\">https://...2/ancora<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-3063333.333333333,
-					4411200
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Apaganifa",
-				"code": "Ap",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-5207666.666666666,
-					919000
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Arcum",
-				"code": "Arc",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3528960,
-					3528960
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Argis",
-				"code": "Arg",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					4227400,
-					1102800
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Arrakeen",
-				"code": "Ar",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-4595000,
-					-5820333.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Atlas",
-				"code": "ATL",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivAtlas\" target=\"_new\">r/CivAtlas<a></a></a>",
-				"flag": "<img src=\"https://s3.amazonaws.com/f.thumbs.redditmedia.com/InbxX8rCL_bAyEMS.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1371760.6666666665,
-					-4260484
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Aurora",
-				"code": "Au",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/civagora\" target=\"_new\">r/civagora<a></a></a>",
-				"map of town": "<a href=\"http://i.imgur.com/WDfGd8n.jpg&apos;\" target=\"_new\">http://i...Gd8n.jpg<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/aurora&apos;\" target=\"_new\">https://...2/aurora<a></a></a>",
-				"flag": "<img src=\"https://s3.amazonaws.com/c.thumbs.redditmedia.com/jVcacnZsIYoYGISn.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2753936.6666666665,
-					944731.9999999999
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Aytos",
-				"code": "Ay",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/civcraftaytos\" target=\"_new\">r/civcraftaytos<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/aytos&apos;\" target=\"_new\">https://...s2/aytos<a></a></a>",
-				"map of town": "<a href=\"https://civcraft.org/lib/exe/fetch.php/cities2/aytosmap.png&apos;\" target=\"_new\">https://...smap.png<a></a></a>",
-				"flag": "<img src=\"https://s3.amazonaws.com/e.thumbs.redditmedia.com/fHoUblZfK0QgWlXL.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2144333.333333333,
-					2144333.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Babylon",
-				"code": "Ba",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					4288666.666666666,
-					-1403006.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Belle Ile",
-				"code": "BI",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/BelleIle\" target=\"_new\">r/BelleIle<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-6946414.666666666,
-					158680.66666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Breslau",
-				"code": "Be",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivcraftPrussia\" target=\"_new\">r/CivcraftPrussia<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/breslau&apos;\" target=\"_new\">https://.../breslau<a></a></a>",
-				"breslau metro": "<a href=\"http://i.imgur.com/wsAKPv3.png&apos;\" target=\"_new\">http://i...KPv3.png<a></a></a>",
-				"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/cities/das_breslauer_wappen.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6433000,
-					-1776733.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Brimstone",
-				"code": "Br",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					4901333.333333333,
-					1470400
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Bryn",
-				"code": "Bc",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/BrynCity\" target=\"_new\">r/BrynCity<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/bryn_city&apos;\" target=\"_new\">https://...ryn_city<a></a></a>",
-				"flag": "<img src=\"http://i.imgur.com/YgUnVF1.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2328133.333333333,
-					2003419.9999999998
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Carbon",
-				"code": "C",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/Civcarbon\" target=\"_new\">r/Civcarbon<a></a></a>",
-				"map of town": "<a href=\"http://i.imgur.com/Yd0II1o.jpg&apos;\" target=\"_new\">http://i...II1o.jpg<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/carbon&apos;\" target=\"_new\">https://...2/carbon<a></a></a>",
-				"flag": "<img src=\"http://i.imgur.com/Am3gF5R.jpg\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					0,
-					-1255966.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Carson",
-				"code": "Cr",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/civcarson\" target=\"_new\">r/civcarson<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/carson&apos;\" target=\"_new\">https://...2/carson<a></a></a>",
-				"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/factions/xhyy9u0sev9blz9j.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2573200,
-					-765833.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Centauri",
-				"code": "Ce",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivCentauri\" target=\"_new\">r/CivCentauri<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					4778800,
-					2144333.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Chihiro",
-				"code": "Ch",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1715466.6666666665,
-					-551400
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "City of Mule",
-				"code": "Mu",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-3369666.6666666665,
-					980266.6666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Claytican",
-				"code": "Cl",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/civClaymen\" target=\"_new\">r/civClaymen<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1337342.2468774442,
-					-852119.9913231425
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lehmdorf",
-				"code": "Ld",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1401781.3333333333,
-					-765833.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Constantinople",
-				"code": "Co",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1654200,
-					-1072166.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Cyprus",
-				"code": "Cy",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1470400,
-					-735200
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "DPNCCR",
-				"code": "DCR",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/DPNCCR\" target=\"_new\">r/DPNCCR<a></a></a>",
-				"flag": "<img src=\"http://theapricity.com/wiki/images/2/26/Poland-flag.gif\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					4521480,
-					-1816556.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Duck City",
-				"code": "DC",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-6353353.333333333,
-					-612666.6666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "End portal",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					254256.66666666666,
-					326551.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Epicus",
-				"code": "Ep",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-3250196.6666666665,
-					-8497686.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Equinox",
-				"code": "Eq",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2879533.333333333,
-					-2450666.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Eslenti",
-				"code": "Es",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/Eslenti\" target=\"_new\">r/Eslenti<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-3691316.6666666665,
-					4039311.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "ExtraLand",
-				"code": "EL",
-				"status": "OK",
-				"flag": "<img src=\"http://i.imgur.com/yKxyU2G.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1658488.6666666665,
-					2202536.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "FellowCamp",
-				"code": "Fc",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3424806.6666666665,
-					1432414.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Fellowship",
-				"code": "Flw",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivcraftFellowship\" target=\"_new\">r/CivcraftFellowship<a></a></a>",
-				"map of town": "<a href=\"http://i.imgur.com/YniJzOU.png&apos;\" target=\"_new\">http://i...JzOU.png<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/fellowship&apos;\" target=\"_new\">https://...llowship<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3741555.333333333,
-					1619890.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Fission",
-				"code": "Fi",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivAtomia\" target=\"_new\">r/CivAtomia<a></a></a>",
-				"flag": "<img src=\"http://i.imgur.com/eyvZuMW.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-4640950,
-					1633369.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Freedom",
-				"code": "Fr",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1225333.3333333333,
-					8494623.333333332
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Goodsprings",
-				"code": "Gs",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/civcraftgoodsprings\" target=\"_new\">r/civcraftgoodsprings<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1341740,
-					-1633982
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Griffin",
-				"code": "Gr",
-				"status": "OK",
-				"flag": "<img src=\"http://i.imgur.com/fYZblaI.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1102800,
-					-1286600
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "H-Dome Spleef",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-4074233.333333333,
-					2772316.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Haven",
-				"code": "Ha",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/civhaven\" target=\"_new\">r/civhaven<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/haven&apos;\" target=\"_new\">https://...s2/haven<a></a></a>",
-				"flag": "<img src=\"http://i.imgur.com/LGCcbT4.jpg\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-4164907.9999999995,
-					2842773.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Heliopolis",
-				"code": "He",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6005971.333333333,
-					4071782.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Hobbiton",
-				"code": "Ho",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/civcrafthobbiton\" target=\"_new\">r/civcrafthobbiton<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/hobbiton&apos;\" target=\"_new\">https://...hobbiton<a></a></a>",
-				"flag": "<img src=\"https://s3.amazonaws.com/c.thumbs.redditmedia.com/-w9W2nF2PX53VjDz.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-3285118.6666666665,
-					-3479946.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Holy Tree",
-				"code": "HT",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/theholytree\" target=\"_new\">r/theholytree<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2695733.333333333,
-					-937380
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Imperium",
-				"code": "Im",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivPetrania/\" target=\"_new\">r/CivPetrania/<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2447603.333333333,
-					-2589129.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Invicta",
-				"code": "In",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-6065400,
-					-3553466.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Iria",
-				"code": "Ir",
-				"status": "OK",
-				"map of town": "<a href=\"http://i.imgur.com/56lJb1D.png&apos;\" target=\"_new\">http://i...Jb1D.png<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3737266.6666666665,
-					4258033.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Isle of Arran",
-				"code": "IA",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/civarran\" target=\"_new\">r/civarran<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2971433.333333333,
-					-5069816.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Jerusalem",
-				"code": "Je",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2132080,
-					-306333.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kappi",
-				"code": "Kp",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/Kappi/\" target=\"_new\">r/Kappi/<a></a></a>",
-				"map of town": "<a href=\"http://i.imgur.com/1l5poYn.png&apos;\" target=\"_new\">http://i...poYn.png<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/kappi&apos;\" target=\"_new\">https://...s2/kappi<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					0,
-					0
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Katten Khanate",
-				"code": "KK",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1504096.6666666665,
-					-932478.6666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kryapolis",
-				"code": "Kr",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2757000,
-					612666.6666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Kyndale",
-				"code": "Ky",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivKyndale/\" target=\"_new\">r/CivKyndale/<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-3124600,
-					-2389400
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lio",
-				"code": "Li",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/civlio\" target=\"_new\">r/civlio<a></a></a>",
-				"map of town": "<a href=\"http://i.imgur.com/dV6zMOy.jpg&apos;\" target=\"_new\">http://i...zMOy.jpg<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/lio&apos;\" target=\"_new\">https://...ies2/lio<a></a></a>",
-				"flag": "<img src=\"https://s3.amazonaws.com/d.thumbs.redditmedia.com/TdZu22o4hPspzB4W.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2936511.333333333,
-					-3282055.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Lockley",
-				"code": "Loc",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-4485332.666666666,
-					2704310.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Megaton",
-				"code": "Mg",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1991166.6666666665,
-					-3430933.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Minas Minas",
-				"code": "MM",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/minasminas/\" target=\"_new\">r/minasminas/<a></a></a>",
-				"map of town": "<a href=\"http://i.imgur.com/ypypML7.png&apos;\" target=\"_new\">http://i...pML7.png<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1787148.6666666665,
-					9014777.333333332
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Moskva",
-				"code": "Ms",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2199473.333333333,
-					3044953.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Mount Augusta",
-				"code": "MA",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1592933.3333333333,
-					-1225333.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Narnia",
-				"code": "Nr",
-				"status": "Inactive",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/narnia&apos;\" target=\"_new\">https://...2/narnia<a></a></a>",
-				"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/cities2/narnia.jpg\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					367600,
-					-735200
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nendoshima",
-				"code": "Ne",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivOsaka\" target=\"_new\">r/CivOsaka<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/osaka&apos;\" target=\"_new\">https://...s2/osaka<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1746712.6666666665,
-					-980266.6666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether Biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					6316593.333333333,
-					6249200
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether Biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-6187933.333333333,
-					-5268933.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether Biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-5042246.666666666,
-					-6892500
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether Biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3063333.333333333,
-					6240010
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether Biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1975849.9999999998,
-					4398946.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-857733.3333333333,
-					-3063333.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5650012,
-					-1197150.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2511933.333333333,
-					4778800
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1531666.6666666665,
-					857733.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2144333.333333333,
-					306333.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-6126666.666666666,
-					-3737266.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-5268933.333333333,
-					-1225333.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nether biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-4656266.666666666,
-					-1592933.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "NeverWinter",
-				"code": "Nw",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/civcraftnw\" target=\"_new\">r/civcraftnw<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-404360,
-					539146.6666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "New Augusta",
-				"code": "Na",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/NewAugusta\" target=\"_new\">r/NewAugusta<a></a></a>",
-				"map of town": "<a href=\"http://i.imgur.com/4t8CINr.png&apos;\" target=\"_new\">http://i...CINr.png<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/new_augusta&apos;\" target=\"_new\">https://..._augusta<a></a></a>",
-				"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/templates/na.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1917646.6666666665,
-					8307759.999999999
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "New Brynley",
-				"code": "NB",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-5759066.666666666,
-					4288666.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "New Covenant",
-				"code": "Nc",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivNewCovenant\" target=\"_new\">r/CivNewCovenant<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/new_covenant&apos;\" target=\"_new\">https://...covenant<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-459500,
-					8503200.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "New Danzilona",
-				"code": "NDZ",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/Danzilona\" target=\"_new\">r/Danzilona<a></a></a>",
-				"map of the town": "<a href=\"http://i.imgur.com/6qhUrS3.jpg&apos;\" target=\"_new\">http://i...UrS3.jpg<a></a></a>",
-				"flag": "<img src=\"http://i.imgur.com/JrBY4qg.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					4595000,
-					-2021799.9999999998
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "New Leningrad",
-				"code": "NL",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/Leningrad/\" target=\"_new\">r/Leningrad/<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/new_leningrad&apos;\" target=\"_new\">https://...eningrad<a></a></a>",
-				"flag": "<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/200px-Flag_of_the_Soviet_Union.svg.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5268933.333333333,
-					2328133.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "New Phoenix",
-				"code": "Np",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2438413.333333333,
-					-946569.9999999999
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "New Sealand",
-				"code": "Ns",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2757000,
-					1531666.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Newtro",
-				"code": "Nt",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/newtro\" target=\"_new\">r/newtro<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/newtro&apos;\" target=\"_new\">https://...2/newtro<a></a></a>",
-				"flag": "<img src=\"http://i.imgur.com/bgFXPsr.jpg\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					4114056.6666666665,
-					460725.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Norvair",
-				"code": "Nor",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					4151429.333333333,
-					3532023.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Nowhere",
-				"code": "No",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-673933.3333333333,
-					-2511933.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Olympia",
-				"code": "Oly",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/Civcraft_Olympia\" target=\"_new\">r/Civcraft_Olympia<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-458274.6666666666,
-					3378244
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Original gangster city",
-				"code": "OGC",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2573200,
-					2879533.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Orion",
-				"code": "Or",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/Civcraft_Orion\" target=\"_new\">r/Civcraft_Orion<a></a></a>",
-				"map of town": "<a href=\"http://i.imgur.com/mvAHcyA.png&apos;\" target=\"_new\">http://i...HcyA.png<a></a></a>",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/orion&apos;\" target=\"_new\">https://...s2/orion<a></a></a>",
-				"flag": "<img src=\"http://i.imgur.com/kcBAutZ.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2757000,
-					3369666.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Pecorino",
-				"code": "Pe",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					0,
-					-3676000
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Plankton",
-				"code": "Pl",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1041533.3333333333,
-					-490133.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Polska",
-				"code": "Pol",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					165420,
-					680060
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Poseidon",
-				"code": "Po",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-173384.66666666666,
-					-1367472
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Proletarskaya",
-				"code": "PRL",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/SovietReunion\" target=\"_new\">r/SovietReunion<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5085133.333333333,
-					-5268933.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Ravenport",
-				"code": "Ra",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2634466.6666666665,
-					-3676000
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "River's End",
-				"code": "RE",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-3369666.6666666665,
-					-5820333.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Riverside",
-				"code": "Rs",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2343450,
-					-4209020
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "SPQR",
-				"code": "SP",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivcraftRoma\" target=\"_new\">r/CivcraftRoma<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-7168200,
-					5391466.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Sanctuary",
-				"code": "Sa",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3141142,
-					3331068.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "SandyShores",
-				"code": "SS",
-				"status": "OK",
-				"flag": "<img src=\"http://www.crwflags.com/fotw/images/s/se-scani.gif\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1899266.6666666665,
-					4227400
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Saraliana",
-				"code": "Sar",
-				"status": "OK",
-				"flag": "<img src=\"https://i.imgur.com/QOSmHLb.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3063333.333333333,
-					6739333.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Scoria",
-				"code": "Sc",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivScoria\" target=\"_new\">r/CivScoria<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5928775.333333333,
-					5018965.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "SkyCity",
-				"code": "Sky",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivSkyCity\" target=\"_new\">r/CivSkyCity<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1480815.3333333333,
-					-3437060
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Skywatch",
-				"code": "Sk",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/skywatchcraft\" target=\"_new\">r/skywatchcraft<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3392948,
-					3584712.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Smakarra",
-				"code": "Sma",
-				"status": "Inactive",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities/smakarra&apos;\" target=\"_new\">https://...smakarra<a></a></a>",
-				"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/cities2/sunburst.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2432286.6666666665,
-					2922420
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Solis",
-				"code": "So",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/civcraft_SPQR\" target=\"_new\">r/civcraft_SPQR<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1017026.6666666666,
-					7597066.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stoneburrow",
-				"code": "Sb",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3308400,
-					-1470400
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Stonefield",
-				"code": "St",
-				"status": "OK",
-				"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/civiss&apos;\" target=\"_new\">https://...2/civiss<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2146171.333333333,
-					-2203762
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Suilven",
-				"code": "Su",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivPetrania/\" target=\"_new\">r/CivPetrania/<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2560334,
-					-2885047.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Swisston",
-				"code": "Sw",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					4656266.666666666,
-					-2266866.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Terminus",
-				"code": "Te",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/civterminus\" target=\"_new\">r/civterminus<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-6126666.666666666,
-					6126666.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "The Commonwealth",
-				"code": "TC",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivCommonwealth/\" target=\"_new\">r/CivCommonwealth/<a></a></a>",
-				"map of town": "<a href=\"http://i.imgur.com/RaFdHUB.jpg&apos;\" target=\"_new\">http://i...dHUB.jpg<a></a></a>",
-				"flag": "<img src=\"http://s28.postimg.org/pd5dyx9bh/6_QADL31.png\" style=\"width:50px;height:20px\">"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1699537.3333333333,
-					-1812880.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "The Principality of Loveshack",
-				"code": "PLS",
-				"status": "OK",
-				"reddit": "<a href=\"http://www.reddit.com/r/luvsjak\" target=\"_new\">r/luvsjak<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1629693.3333333333,
-					-1233910.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Trenzalore",
-				"code": "Tr",
-				"status": "Inactive",
-				"reddit": "<a href=\"http://www.reddit.com/r/CivPetrania/\" target=\"_new\">r/CivPetrania/<a></a></a>"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2276056.6666666665,
-					-2026088.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vale",
-				"code": "Va",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1164066.6666666665,
-					-245066.66666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Valhalla",
-				"code": "Vl",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-4349933.333333333,
-					857733.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Valkyria",
-				"code": "Val",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					3129501.333333333,
-					3774639.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Vector",
-				"code": "Ve",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2227043.333333333,
-					-3040664.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Weldon",
-				"code": "We",
-				"status": "Inactive"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5409234,
-					4405073.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5654913.333333333,
-					7082426.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-8711507.333333332,
-					661680
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					778086.6666666666,
-					-1709952.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1347866.6666666665,
-					1960533.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1409133.3333333333,
-					2787633.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					8246493.333333333,
-					3829166.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-5575266.666666666,
-					-2389400
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-741326.6666666666,
-					4597450.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-1409133.3333333333,
-					2511933.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2757000,
-					2205600
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-919000,
-					3369666.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-4319300,
-					-4656266.666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-6157300,
-					-3124600
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1703213.3333333333,
-					759706.6666666666
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2266866.6666666665,
-					-6984400
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					5207666.666666666,
-					2726366.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2666938,
-					1287825.3333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2195184.6666666665,
-					5153752
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-3442574,
-					-3720724.6666666665
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					1329486.6666666665,
-					-7088553.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "mushroom biome",
-				"code": ""
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2083066.6666666665,
-					6726467.333333333
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Harvest",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-2841442.5845400076,
-					3729946.6013268977
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Santas Domingas",
-				"status": "OK"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					-240148.5960708665,6423343.435476461
-				]
-			}
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "",
+			"code": "?"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2124,
+				6425
+			]
 		}
-	]
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Aeon",
+			"code": "Ae",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivAeon\" target=\"_new\">r/CivAeon<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-12022,
+				-1402
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Alkagora",
+			"code": "Alk",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				5493,
+				-1903
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Altorum",
+			"code": "Alt",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivAltorum\" target=\"_new\">r/CivAltorum<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-1502,
+				7514
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Ancora",
+			"code": "Anc",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/civcraftancora\" target=\"_new\">r/civcraftancora<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/ancora&apos;\" target=\"_new\">https://...2/ancora<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-5009,
+				-7213
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Apaganifa",
+			"code": "Ap",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-8516,
+				-1502
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Arcum",
+			"code": "Arc",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				5770,
+				-5770
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Argis",
+			"code": "Arg",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				6913,
+				-1803
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Arrakeen",
+			"code": "Ar",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-7514,
+				9518
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Atlas",
+			"code": "ATL",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivAtlas\" target=\"_new\">r/CivAtlas<a></a></a>",
+			"flag": "<img src=\"https://s3.amazonaws.com/f.thumbs.redditmedia.com/InbxX8rCL_bAyEMS.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2243,
+				6967
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Aurora",
+			"code": "Au",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/civagora\" target=\"_new\">r/civagora<a></a></a>",
+			"map of town": "<a href=\"http://i.imgur.com/WDfGd8n.jpg&apos;\" target=\"_new\">http://i...Gd8n.jpg<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/aurora&apos;\" target=\"_new\">https://...2/aurora<a></a></a>",
+			"flag": "<img src=\"https://s3.amazonaws.com/c.thumbs.redditmedia.com/jVcacnZsIYoYGISn.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4503,
+				-1544
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Aytos",
+			"code": "Ay",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/civcraftaytos\" target=\"_new\">r/civcraftaytos<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/aytos&apos;\" target=\"_new\">https://...s2/aytos<a></a></a>",
+			"map of town": "<a href=\"https://civcraft.org/lib/exe/fetch.php/cities2/aytosmap.png&apos;\" target=\"_new\">https://...smap.png<a></a></a>",
+			"flag": "<img src=\"https://s3.amazonaws.com/e.thumbs.redditmedia.com/fHoUblZfK0QgWlXL.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-3506,
+				-3506
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Babylon",
+			"code": "Ba",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				7013,
+				2294
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Belle Ile",
+			"code": "BI",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/BelleIle\" target=\"_new\">r/BelleIle<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-11359,
+				-259
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Breslau",
+			"code": "Be",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivcraftPrussia\" target=\"_new\">r/CivcraftPrussia<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/breslau&apos;\" target=\"_new\">https://.../breslau<a></a></a>",
+			"breslau metro": "<a href=\"http://i.imgur.com/wsAKPv3.png&apos;\" target=\"_new\">http://i...KPv3.png<a></a></a>",
+			"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/cities/das_breslauer_wappen.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				10519,
+				2905
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Brimstone",
+			"code": "Br",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				8015,
+				-2404
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Bryn",
+			"code": "Bc",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/BrynCity\" target=\"_new\">r/BrynCity<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/bryn_city&apos;\" target=\"_new\">https://...ryn_city<a></a></a>",
+			"flag": "<img src=\"http://i.imgur.com/YgUnVF1.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3807,
+				-3276
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Carbon",
+			"code": "C",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/Civcarbon\" target=\"_new\">r/Civcarbon<a></a></a>",
+			"map of town": "<a href=\"http://i.imgur.com/Yd0II1o.jpg&apos;\" target=\"_new\">http://i...II1o.jpg<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/carbon&apos;\" target=\"_new\">https://...2/carbon<a></a></a>",
+			"flag": "<img src=\"http://i.imgur.com/Am3gF5R.jpg\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				0,
+				2053
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Carson",
+			"code": "Cr",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/civcarson\" target=\"_new\">r/civcarson<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/carson&apos;\" target=\"_new\">https://...2/carson<a></a></a>",
+			"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/factions/xhyy9u0sev9blz9j.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4207,
+				1252
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Centauri",
+			"code": "Ce",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivCentauri\" target=\"_new\">r/CivCentauri<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				7814,
+				-3506
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Chihiro",
+			"code": "Ch",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2805,
+				901
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "City of Mule",
+			"code": "Mu",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-5510,
+				-1603
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Claytican",
+			"code": "Cl",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/civClaymen\" target=\"_new\">r/civClaymen<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2186,
+				1393
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Lehmdorf",
+			"code": "Ld",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2292,
+				1252
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Constantinople",
+			"code": "Co",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				2705,
+				1753
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Cyprus",
+			"code": "Cy",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2404,
+				1202
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "DPNCCR",
+			"code": "DCR",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/DPNCCR\" target=\"_new\">r/DPNCCR<a></a></a>",
+			"flag": "<img src=\"http://theapricity.com/wiki/images/2/26/Poland-flag.gif\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				7394,
+				2970
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Duck City",
+			"code": "DC",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-10389,
+				1001
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "End portal",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				415,
+				-534
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Epicus",
+			"code": "Ep",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-5315,
+				13896
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Equinox",
+			"code": "Eq",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4708,
+				4007
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Eslenti",
+			"code": "Es",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/Eslenti\" target=\"_new\">r/Eslenti<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-6036,
+				-6605
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "ExtraLand",
+			"code": "EL",
+			"status": "OK",
+			"flag": "<img src=\"http://i.imgur.com/yKxyU2G.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2712,
+				-3601
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "FellowCamp",
+			"code": "Fc",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				5600,
+				-2342
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Fellowship",
+			"code": "Flw",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivcraftFellowship\" target=\"_new\">r/CivcraftFellowship<a></a></a>",
+			"map of town": "<a href=\"http://i.imgur.com/YniJzOU.png&apos;\" target=\"_new\">http://i...JzOU.png<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/fellowship&apos;\" target=\"_new\">https://...llowship<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				6118,
+				-2649
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Fission",
+			"code": "Fi",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivAtomia\" target=\"_new\">r/CivAtomia<a></a></a>",
+			"flag": "<img src=\"http://i.imgur.com/eyvZuMW.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-7589,
+				-2671
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Freedom",
+			"code": "Fr",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2003,
+				-13891
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Goodsprings",
+			"code": "Gs",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/civcraftgoodsprings\" target=\"_new\">r/civcraftgoodsprings<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				2194,
+				2672
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Griffin",
+			"code": "Gr",
+			"status": "OK",
+			"flag": "<img src=\"http://i.imgur.com/fYZblaI.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				1803,
+				2103
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "H-Dome Spleef",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-6662,
+				-4533
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Haven",
+			"code": "Ha",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/civhaven\" target=\"_new\">r/civhaven<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/haven&apos;\" target=\"_new\">https://...s2/haven<a></a></a>",
+			"flag": "<img src=\"http://i.imgur.com/LGCcbT4.jpg\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-6810,
+				-4648
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Heliopolis",
+			"code": "He",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				9821,
+				-6658
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Hobbiton",
+			"code": "Ho",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/civcrafthobbiton\" target=\"_new\">r/civcrafthobbiton<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/hobbiton&apos;\" target=\"_new\">https://...hobbiton<a></a></a>",
+			"flag": "<img src=\"https://s3.amazonaws.com/c.thumbs.redditmedia.com/-w9W2nF2PX53VjDz.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-5372,
+				5690
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Holy Tree",
+			"code": "HT",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/theholytree\" target=\"_new\">r/theholytree<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4408,
+				1532
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Imperium",
+			"code": "Im",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivPetrania/\" target=\"_new\">r/CivPetrania/<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4002,
+				4234
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Invicta",
+			"code": "In",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-9918,
+				5811
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Iria",
+			"code": "Ir",
+			"status": "OK",
+			"map of town": "<a href=\"http://i.imgur.com/56lJb1D.png&apos;\" target=\"_new\">http://i...Jb1D.png<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				6111,
+				-6963
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Isle of Arran",
+			"code": "IA",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/civarran\" target=\"_new\">r/civarran<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4859,
+				8290
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Jerusalem",
+			"code": "Je",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3486,
+				500
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Kappi",
+			"code": "Kp",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/Kappi/\" target=\"_new\">r/Kappi/<a></a></a>",
+			"map of town": "<a href=\"http://i.imgur.com/1l5poYn.png&apos;\" target=\"_new\">http://i...poYn.png<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/kappi&apos;\" target=\"_new\">https://...s2/kappi<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				0,
+				0
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Katten Khanate",
+			"code": "KK",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				2459,
+				1524
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Kryapolis",
+			"code": "Kr",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4508,
+				-1001
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Kyndale",
+			"code": "Ky",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivKyndale/\" target=\"_new\">r/CivKyndale/<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-5109,
+				3907
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Lio",
+			"code": "Li",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/civlio\" target=\"_new\">r/civlio<a></a></a>",
+			"map of town": "<a href=\"http://i.imgur.com/dV6zMOy.jpg&apos;\" target=\"_new\">http://i...zMOy.jpg<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/lio&apos;\" target=\"_new\">https://...ies2/lio<a></a></a>",
+			"flag": "<img src=\"https://s3.amazonaws.com/d.thumbs.redditmedia.com/TdZu22o4hPspzB4W.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4802,
+				5367
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Lockley",
+			"code": "Loc",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-7334,
+				-4422
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Megaton",
+			"code": "Mg",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3256,
+				5610
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Minas Minas",
+			"code": "MM",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/minasminas/\" target=\"_new\">r/minasminas/<a></a></a>",
+			"map of town": "<a href=\"http://i.imgur.com/ypypML7.png&apos;\" target=\"_new\">http://i...pML7.png<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2922,
+				-14741
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Moskva",
+			"code": "Ms",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3596,
+				-4979
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Mount Augusta",
+			"code": "MA",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				2604,
+				2003
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Narnia",
+			"code": "Nr",
+			"status": "Inactive",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/narnia&apos;\" target=\"_new\">https://...2/narnia<a></a></a>",
+			"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/cities2/narnia.jpg\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				601,
+				1202
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nendoshima",
+			"code": "Ne",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivOsaka\" target=\"_new\">r/CivOsaka<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/osaka&apos;\" target=\"_new\">https://...s2/osaka<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2856,
+				1603
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether Biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				10329,
+				-10219
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether Biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-10119,
+				8616
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether Biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-8245,
+				11271
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether Biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				5009,
+				-10204
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether Biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3231,
+				-7193
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-1402,
+				5009
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				9239,
+				1957
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4107,
+				-7814
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2504,
+				-1402
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-3506,
+				-500
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-10018,
+				6111
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-8616,
+				2003
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nether biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-7614,
+				2604
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "NeverWinter",
+			"code": "Nw",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/civcraftnw\" target=\"_new\">r/civcraftnw<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-661,
+				-881
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "New Augusta",
+			"code": "Na",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/NewAugusta\" target=\"_new\">r/NewAugusta<a></a></a>",
+			"map of town": "<a href=\"http://i.imgur.com/4t8CINr.png&apos;\" target=\"_new\">http://i...CINr.png<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/new_augusta&apos;\" target=\"_new\">https://..._augusta<a></a></a>",
+			"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/templates/na.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-3135,
+				-13585
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "New Brynley",
+			"code": "NB",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-9417,
+				-7013
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "New Covenant",
+			"code": "Nc",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivNewCovenant\" target=\"_new\">r/CivNewCovenant<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/new_covenant&apos;\" target=\"_new\">https://...covenant<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-751,
+				-13905
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "New Danzilona",
+			"code": "NDZ",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/Danzilona\" target=\"_new\">r/Danzilona<a></a></a>",
+			"map of the town": "<a href=\"http://i.imgur.com/6qhUrS3.jpg&apos;\" target=\"_new\">http://i...UrS3.jpg<a></a></a>",
+			"flag": "<img src=\"http://i.imgur.com/JrBY4qg.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				7514,
+				3306
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "New Leningrad",
+			"code": "NL",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/Leningrad/\" target=\"_new\">r/Leningrad/<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/new_leningrad&apos;\" target=\"_new\">https://...eningrad<a></a></a>",
+			"flag": "<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/200px-Flag_of_the_Soviet_Union.svg.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				8616,
+				-3807
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "New Phoenix",
+			"code": "Np",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3987,
+				1547
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "New Sealand",
+			"code": "Ns",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4508,
+				-2504
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Newtro",
+			"code": "Nt",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/newtro\" target=\"_new\">r/newtro<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/newtro&apos;\" target=\"_new\">https://...2/newtro<a></a></a>",
+			"flag": "<img src=\"http://i.imgur.com/bgFXPsr.jpg\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				6727,
+				-753
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Norvair",
+			"code": "Nor",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				6788,
+				-5775
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Nowhere",
+			"code": "No",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-1102,
+				4107
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Olympia",
+			"code": "Oly",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/Civcraft_Olympia\" target=\"_new\">r/Civcraft_Olympia<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-749,
+				-5524
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Original gangster city",
+			"code": "OGC",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4207,
+				-4708
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Orion",
+			"code": "Or",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/Civcraft_Orion\" target=\"_new\">r/Civcraft_Orion<a></a></a>",
+			"map of town": "<a href=\"http://i.imgur.com/mvAHcyA.png&apos;\" target=\"_new\">http://i...HcyA.png<a></a></a>",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/orion&apos;\" target=\"_new\">https://...s2/orion<a></a></a>",
+			"flag": "<img src=\"http://i.imgur.com/kcBAutZ.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4508,
+				-5510
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Pecorino",
+			"code": "Pe",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				0,
+				6011
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Plankton",
+			"code": "Pl",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				1703,
+				801
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Polska",
+			"code": "Pol",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				270,
+				-1112
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Poseidon",
+			"code": "Po",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-283,
+				2236
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Proletarskaya",
+			"code": "PRL",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/SovietReunion\" target=\"_new\">r/SovietReunion<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				8315,
+				8616
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Ravenport",
+			"code": "Ra",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4308,
+				6011
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "River's End",
+			"code": "RE",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-5510,
+				9518
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Riverside",
+			"code": "Rs",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-3832,
+				6883
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "SPQR",
+			"code": "SP",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivcraftRoma\" target=\"_new\">r/CivcraftRoma<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-11722,
+				-8816
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Sanctuary",
+			"code": "Sa",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				5136,
+				-5447
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "SandyShores",
+			"code": "SS",
+			"status": "OK",
+			"flag": "<img src=\"http://www.crwflags.com/fotw/images/s/se-scani.gif\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-3105,
+				-6913
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Saraliana",
+			"code": "Sar",
+			"status": "OK",
+			"flag": "<img src=\"https://i.imgur.com/QOSmHLb.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				5009,
+				-11020
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Scoria",
+			"code": "Sc",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivScoria\" target=\"_new\">r/CivScoria<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				9695,
+				-8207
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "SkyCity",
+			"code": "Sky",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivSkyCity\" target=\"_new\">r/CivSkyCity<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				2421,
+				5620
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Skywatch",
+			"code": "Sk",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/skywatchcraft\" target=\"_new\">r/skywatchcraft<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				5548,
+				-5862
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Smakarra",
+			"code": "Sma",
+			"status": "Inactive",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities/smakarra&apos;\" target=\"_new\">https://...smakarra<a></a></a>",
+			"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/cities2/sunburst.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3977,
+				-4779
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Solis",
+			"code": "So",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/civcraft_SPQR\" target=\"_new\">r/civcraft_SPQR<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-1663,
+				-12423
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Stoneburrow",
+			"code": "Sb",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				5410,
+				2404
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Stonefield",
+			"code": "St",
+			"status": "OK",
+			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/civiss&apos;\" target=\"_new\">https://...2/civiss<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-3509,
+				3603
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Suilven",
+			"code": "Su",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivPetrania/\" target=\"_new\">r/CivPetrania/<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4186,
+				4717
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Swisston",
+			"code": "Sw",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				7614,
+				3707
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Terminus",
+			"code": "Te",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/civterminus\" target=\"_new\">r/civterminus<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-10018,
+				-10018
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "The Commonwealth",
+			"code": "TC",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivCommonwealth/\" target=\"_new\">r/CivCommonwealth/<a></a></a>",
+			"map of town": "<a href=\"http://i.imgur.com/RaFdHUB.jpg&apos;\" target=\"_new\">http://i...dHUB.jpg<a></a></a>",
+			"flag": "<img src=\"http://s28.postimg.org/pd5dyx9bh/6_QADL31.png\" style=\"width:50px;height:20px\">"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2779,
+				2964
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "The Principality of Loveshack",
+			"code": "PLS",
+			"status": "OK",
+			"reddit": "<a href=\"http://www.reddit.com/r/luvsjak\" target=\"_new\">r/luvsjak<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				2665,
+				2017
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Trenzalore",
+			"code": "Tr",
+			"status": "Inactive",
+			"reddit": "<a href=\"http://www.reddit.com/r/CivPetrania/\" target=\"_new\">r/CivPetrania/<a></a></a>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3722,
+				3313
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Vale",
+			"code": "Va",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-1903,
+				400
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Valhalla",
+			"code": "Vl",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-7113,
+				-1402
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Valkyria",
+			"code": "Val",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				5117,
+				-6172
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Vector",
+			"code": "Ve",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-3641,
+				4972
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Weldon",
+			"code": "We",
+			"status": "Inactive"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				8845,
+				-7203
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				9247,
+				-11581
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-14246,
+				-1082
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				1272,
+				2796
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2204,
+				-3206
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2304,
+				-4558
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				13485,
+				-6261
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-9117,
+				3907
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-1212,
+				-7518
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-2304,
+				-4107
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4508,
+				-3606
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-1502,
+				-5510
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-7063,
+				7614
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-10069,
+				5109
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				2785,
+				-1242
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3707,
+				11421
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				8516,
+				-4458
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				4361,
+				-2105
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-3589,
+				-8427
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-5629,
+				6084
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				2174,
+				11591
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "mushroom biome",
+			"code": ""
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				3406,
+				-10999
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Harvest",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-4646,
+				-6099
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Santas Domingas",
+			"status": "OK"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-392,
+				-10504
+			]
+		}
+	}
+]
 }

@@ -1,5 +1,7 @@
 var coordsToBlocks = function(coords) {
-
+  return coords.map(function(p, index) {
+    return parseInt(p * 0.001635310 * (index ? -1 : 1));
+  });
 }
 var blocksToCoords = function(position) {
   return [parseInt(position[0]), parseInt(position[1])].map(function(c, i) {
@@ -12,29 +14,50 @@ var NaNsToZeros = function(array) {
   });
 };
 
+// proj4.defs('minecraft', '+proj=longlat +no_defs');
+
+// // Configure the Sphere Mollweide projection object with an extent,
+// // and a world extent. These are required for the Graticule.
+// var projection = ol.proj.get('minecraft');
+// projection.setExtent([-32770, -32770, 32770, 32770]);
+// sphereMollweideProjection.setWorldExtent([-179, -90, 179, 90]);
+// 5556 4837
 var projection = new ol.proj.Projection({
   code: 'minecraft',
-  units: 'block',
-  extent: [-1000000, -1000000, 1000000, 1000000],
-  global: true
+  units: 'pixels',
+  extent: [-32770, -32770, 32770, 32770],
+  global: false
 });
 ol.proj.addProjection(projection);
+ol.proj.addCoordinateTransforms('EPSG:4326', projection,
+  function(coords) {
+    return [coords[0], coords[1] * -1];
+  },
+  function(position) {
+    return [parseInt(position[0]), parseInt(position[1])].map(function(c, i) {
+      return c * (index ? 1 : -1) * (9190000 / 15000);
+    });
+  }
+);
 
 var mousePositionControl = new ol.control.MousePosition({
   coordinateFormat: ol.coordinate.createStringXY(4),
-  // projection: 'EPSG:4326',
+  // projection: 'minecraft',
   // comment the following two lines to have the mouse position
   // be placed within the map.
-  // className: 'custom-mouse-position',
-  // target: document.getElementById('mouse-position'),
-  undefinedHTML: '&nbsp;'
+  className: 'custom-mouse-position',
+  target: document.getElementById('position'),
+  undefinedHTML: '&nbsp;',
+  coordinateFormat: function(coordinate) {
+    return Math.floor(coordinate[0]) + ',' + Math.floor(coordinate[1]);
+  }
 });
 var size = 8000;
 var map = new ol.Map({
   // renderer: 'webgl',
   target: 'map',
   controls: [
-    // mousePositionControl
+    mousePositionControl
   ],
   layers: [
     new ol.layer.Tile({
@@ -42,11 +65,14 @@ var map = new ol.Map({
         attributions: [
           new ol.Attribution({
             html: 'Player map data compiled by pavel_the_hitman at r/civtransport, interface by GipsyKing'
-          }),
-          ol.source.OSM.DATA_ATTRIBUTION
+          })
         ],
         // tileUrlFunction: ol.TileUrlFunction.createFromTemplates(ol.TileUrlFunction.expandUrl('http://civcraft.slimecraft.eu/tiles/{z}/tile_{x}_{-y}_normal.png')),
-        tileUrlFunction: ol.TileUrlFunction.createFromTemplates(ol.TileUrlFunction.expandUrl('tiles/{z}/{x}/{y}.png')),
+        tileUrlFunction: function(coordinate, ratio, projection) {
+          coordinate = coordinate.getZXY();
+          return 'tiles/' + coordinate[0] + '/' + coordinate[1] + '/' + coordinate[2] + '.png'
+        },
+        // ol.TileUrlFunction.createFromTemplates(ol.TileUrlFunction.expandUrl('tiles/{z}/{x}/{y}.png')),
         // tileUrlFunction: ol.TileUrlFunction.createFromTemplates(ol.TileUrlFunction.expandUrl('http://localhost:8888/v2/civcraft/{z}/{x}/{y}.png')),
         // tileGrid: new ol.tilegrid.XYZ({maxZoom: 14}),
         // tilePixelRatio: 2,
@@ -70,27 +96,13 @@ var map = new ol.Map({
     // })
   ],
   view: new ol.View({
+    projection: 'minecraft',
     center: NaNsToZeros(blocksToCoords(window.location.hash.substr(1).split('/').slice(1))),
-    zoom: Math.min(8, Math.max(2, parseInt(window.location.hash.substr(1).split('/').slice(0, 1)) || 0)),
+    zoom: Math.min(8, Math.max(2, parseInt(window.location.hash.substr(1).split('/').slice(0, 1)) || 3)),
     minZoom: 1,
     maxZoom: 12
   })
 });
-
-var position = $('#position');
-map.on('pointermove', function(e) {
-  position.text(e.coordinate.map(function(p, index) {
-    return parseInt(p * 0.001635310 * (index ? -1 : 1));
-  }));
-  if (window.showCoords === true) {
-    console.log(e.coordinate);
-  }
-});
-$(document).on('keypress', function(e) {
-  if (e.keyCode === 115) {
-    window.showCoords = !window.showCoords;
-  }
-})
 
 
 
@@ -152,22 +164,13 @@ function addInteraction() {
 var typeSelect = document.getElementById('type');
 
 
-/**
- * Let user change the geometry type.
- * @param {Event} e Change event.
- */
-// typeSelect.onchange = function(e) {
-//   map.removeInteraction(draw);
-//   addInteraction();
-// };
 
-// addInteraction();
 
 
 
 
 var railsSource = new ol.source.GeoJSON({
-  projection: 'EPSG:4326',
+  projection: 'minecraft',
   url: 'rails.geojson'
 });
 
@@ -200,7 +203,7 @@ var vectorLines = new ol.layer.Vector({
     var style = new ol.style.Style({
       stroke: new ol.style.Stroke({
           color: color,
-          width: Math.min(8, Math.max(6, Math.floor(resolution / 1000))),
+          width: Math.min(8, Math.max(6, Math.floor(resolution / 16))),
           lineDash: feature.get('unconfirmed') ? [5, 10] : undefined
         }),
       // image: new ol.style.Circle({
@@ -227,7 +230,7 @@ var createTextStyle = function(feature, resolution, dom) {
     // textAlign: align,
     // textBaseline: baseline,
     font: 'bold ' + fontSize + 'px Arial',
-    text: resolution > 10000 ? feature.get('code') || '' : feature.get('name') || '?',
+    text: resolution > 16 ? feature.get('code') || '' : feature.get('name') || '?',
     fill: new ol.style.Fill({color: '#000000'}),
     stroke: new ol.style.Stroke({color: '#ffffff', width: 2}),
     // offsetX: offsetX,
@@ -239,10 +242,8 @@ var createTextStyle = function(feature, resolution, dom) {
 // Points
 var showInactive = false;
 var createPointStyleFunction = function() {
-  var maxResolution = 100000;
   return function(feature, resolution) {
-    if (resolution > maxResolution 
-      || (resolution > 10000 && (feature.get('status') !== 'OK' || !feature.get('code')))
+    if ((resolution > 16 && (feature.get('status') !== 'OK' || !feature.get('code')))
       || (!showInactive && feature.get('code') && feature.get('status') !== 'OK')
       || ['mushroom biome', 'Nether biome'].indexOf(feature.get('name')) !== -1) {
       return [];
@@ -252,9 +253,9 @@ var createPointStyleFunction = function() {
       text: createTextStyle(feature, resolution, {})
     };
     
-    if (resolution > 10000 && (feature.get('status') === 'OK' || feature.get('code'))) {
+    if (resolution > 16 && (feature.get('status') === 'OK' || feature.get('code'))) {
       style.image = new ol.style.Circle({
-        radius: 10,
+        radius: 15,
         fill: new ol.style.Fill({color: color}),
         stroke: new ol.style.Stroke({color: 'gray', width: 1})
       });
@@ -264,7 +265,7 @@ var createPointStyleFunction = function() {
 };
 
 var citiesSource = new ol.source.GeoJSON({
-  projection: 'EPSG:4326',
+  projection: 'minecraft',
   url: 'cities.geojson'
 });
 
