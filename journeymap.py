@@ -7,12 +7,12 @@ def crop(z, x, y, xoffset, yoffset, xdest, ydest):
 		os.makedirs("public/tiles/8/%d" % (xdest))
 
 	if not os.path.exists("public/tiles/%d/%d/%d.png" % (z, xdest, ydest)):
-		call("convert data/day/%d,%d.png \
+		call("convert data/master/%d,%d.png \
 			-gravity NorthWest -crop 256x256+%d+%d \
 			public/tiles/%d/%d/%d.png" % (x, y, xoffset, yoffset, z, xdest, ydest),
 			shell=True)
 	else:
-		call("convert data/day/%d,%d.png \
+		call("convert data/master/%d,%d.png \
 			-gravity NorthWest -crop 256x256+%d+%d \
 			public/tiles/%d/%d/temp_%d.png" % (x, y, xoffset, yoffset, z, xdest, ydest),
 			shell=True)
@@ -22,7 +22,7 @@ def crop(z, x, y, xoffset, yoffset, xdest, ydest):
 			public/tiles/%d/%d/%d.png" % (z, xdest, ydest, z, xdest, ydest, z, xdest, ydest),
 			shell=True)
 		# remove temp file:
-		os.remove("public/tiles/%d/%d/temp_%d.png" % z, xdest, ydest)
+		os.remove("public/tiles/%d/%d/temp_%d.png" % (z, xdest, ydest))
 
 
 for y in range(-129, 129):
@@ -38,12 +38,12 @@ for y in range(-129, 129):
 
 		rowSize = 128
 
-		if os.path.exists("data/day/%d,%d.png" % (x, y)):
+		if os.path.exists("data/master/%d,%d.png" % (x, y)):
 
 			if not os.path.exists("public/tiles/7/%d/%d.png" % (xdest, ydest)):
-				call("convert data/day/%d,%d.png -resize 256x256 public/tiles/7/%d/%d.png" % (x, y, xdest, ydest), shell=True)
+				call("convert data/master/%d,%d.png -resize 256x256 public/tiles/7/%d/%d.png" % (x, y, xdest, ydest), shell=True)
 			else:
-				call("composite data/day/%d,%d.png -resize 256x256 public/tiles/7/%d/%d.png public/tiles/7/%d/%d.png" % (x, y, xdest, ydest, xdest, ydest), shell=True)
+				call("composite data/master/%d,%d.png -resize 256x256 public/tiles/7/%d/%d.png public/tiles/7/%d/%d.png" % (x, y, xdest, ydest, xdest, ydest), shell=True)
 
 			crop(8, x, y, 0, 0, x * 2 + rowSize, -y * 2 + rowSize - 1)
 			crop(8, x, y, 256, 0, x * 2 + rowSize + 1, -y * 2 + rowSize - 1)
@@ -66,11 +66,11 @@ for y in range(-129, 129):
 
 				for xoffset in range(0, factor):
 					for yoffset in range(0, factor):
-						if not os.path.exists("data/day/%d,%d.png" % (x + xoffset, y + yoffset)):
+						if not os.path.exists("data/master/%d,%d.png" % (x + xoffset, y + yoffset)):
 							continue
 
 						command = "composite -gravity NorthWest \
-							data/day/%d,%d.png \
+							data/master/%d,%d.png \
 							-geometry %dx%d+%d+%d \
 							public/tiles/%d/%d/%d.png \
 							public/tiles/%d/%d/%d.png" % (
