@@ -2290,7 +2290,8 @@
 			"name": "Santas Domingas",
 			"code": "SD",
 			"abandoned": false,
-			"type": "farm"
+			"type": "farm",
+			"flag": "<img src=\"http://i.imgur.com/E7ivVG1.png\"/>"
 		},
 		"geometry": {
 			"type": "Point",
@@ -2313,6 +2314,58 @@
 			"coordinates": [
 				-3637,
 				-4354
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Titan",
+			"code": "Ti",
+			"abandoned": false,
+			"reddit": "<a href='http://www.reddit.com/r/civtitan/'>r/civtitan</a>",
+			"type": "city"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				24,
+				11259
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Neverwhere",
+			"code": "Nv",
+			"abandoned": false,
+			"type": "city",
+			"reddit": "<a href='http://www.reddit.com/r/CivNeverwhere'>r/CivNeverwhere</a>",
+			"flag": "<img src=\"http://i.imgur.com/BPkUnns.jpg\"/>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-1150,
+				12800
+			]
+		}
+	},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Ñ",
+			"code": "Ñ",
+			"abandoned": false,
+			"type": "farm",
+			"flag": "<img src=\"http://i.imgur.com/E7ivVG1.png\"/>"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-5555,
+				-4763
 			]
 		}
 	}
