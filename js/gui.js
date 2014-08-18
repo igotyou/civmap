@@ -61,7 +61,7 @@ module.exports = function(map) {
       view.setZoom(zoom);
     }
     window.location.hash = zoom + '/' + view.getCenter().map(function(p, index) {
-      return Math.floor(p * 0.001635310 * (index ? -1 : 1));
+      return Math.floor(p) * (index ? -1 : 1);
     }).join('/');
   });
 };

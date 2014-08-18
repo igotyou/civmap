@@ -67,7 +67,12 @@ var map = new ol.Map({
   ],
   view: new ol.View({
     projection: 'minecraft',
-    center: NaNsToZeros(blocksToCoords(window.location.hash.substr(1).split('/').slice(1))),
+    center: (function(coords) {
+      if (!coords || coords.length !== 2 || isNaN(parseInt(coords[0])) || isNaN(parseInt(coords[1]))) {
+        return [0, 0];
+      }
+      return [parseInt(coords[0]), parseInt(coords[1]) * -1];
+    })(window.location.hash.substr(1).split('/').slice(1)),
     zoom: Math.min(8, Math.max(2, parseInt(window.location.hash.substr(1).split('/').slice(0, 1)) || 3)),
     minZoom: 1,
     maxZoom: 12
