@@ -1,7 +1,8 @@
 var layers = {
   rails: require('./railsLayer.js'),
   points: require('./pointLayer.js'),
-  civballs: require('./civballsLayer.js')
+  civballs: require('./civballsLayer.js'),
+  lineout: require('./lineoutLayer.js')
 };
 
 var pointLayer = require('./pointLayer.js');
