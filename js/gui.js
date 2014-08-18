@@ -1,13 +1,19 @@
+var layers = {
+  rails: require('./railsLayer.js'),
+  points: require('./pointLayer.js'),
+  civballs: require('./civballsLayer.js')
+};
+
 var pointLayer = require('./pointLayer.js');
 module.exports = function(map) {
   $('.dropdown-menu a[data-toggle-layer]').click(function(e) {
     $(e.currentTarget).find('.glyphicon-ok').css({
-      opacity: require('./' + $(e.currentTarget).attr('data-toggle-layer') + 'Layer.js').toggle() ? 1 : 0
+      opacity: layers[$(e.currentTarget).attr('data-toggle-layer')].toggle() ? 1 : 0
     });
   });
   $('.dropdown-menu a[data-toggle-points]').click(function(e) {
     $(e.currentTarget).find('.glyphicon-ok').css({
-      opacity: pointLayer.toggleVisible($(e.currentTarget).attr('data-toggle-points')) ? 1 : 0
+      opacity: layers.points.toggleVisible($(e.currentTarget).attr('data-toggle-points')) ? 1 : 0
     });
   });
 
