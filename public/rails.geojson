@@ -84,38 +84,6 @@
     {  
       "type":"Feature",
       "properties":{  
-        "origin":"Iria",
-        "destination":"Saraliana"
-      },
-      "geometry":{  
-        "type":"LineString",
-        "coordinates":[  
-          [  
-            6074,
-            -6959
-          ],
-          [  
-            6074,
-            -10119
-          ],
-          [  
-            5954,
-            -10119
-          ],
-          [  
-            5953,
-            -10960
-          ],
-          [  
-            5003,
-            -10960
-          ]
-        ]
-      }
-    },
-    {  
-      "type":"Feature",
-      "properties":{  
         "origin":"Orion",
         "destination":"Senntisten"
       },
