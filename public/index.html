@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/civmap.css" type="text/css">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
-    <title>Civmap</title>
+    <title>Today: Civballs by soraendo!</title>
   </head>
   <body>
     <div id="map" class="map">
@@ -20,31 +20,40 @@
 
           <span class="dropdown">
             <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown">
-              <span class="glyphicon glyphicon-cog"></span>
+              <span class="glyphicon glyphicon-align-justify"></span>
             </button>
             <ul class="dropdown-menu dropdown-menu-form" role="menu" aria-labelledby="dropdownMenu1">
               <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#" id="geturl"><span class="glyphicon glyphicon-link"></span> Get URL</a>
-              </li>
-              <li role="presentation" class="divider"></li>
-              <li role="presentation">
-                <a role="menuitem" href="#" id="showInactive" class="menuitem-noclose"/><span class="glyphicon glyphicon-tower"></span>
+                <a role="menuitem" href="#" data-toggle-points="abandoned" class="menuitem-noclose"/><span class="glyphicon glyphicon-tower"></span>
                   Inactive cities
                   <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
                 </a>
               </li>
               <li role="presentation">
-                <a role="menuitem" href="#" id="showBiome" class="menuitem-noclose"/><span class="glyphicon glyphicon-tree-deciduous"></span>
+                <a role="menuitem" href="#" data-toggle-points="biomes" class="menuitem-noclose"/><span class="glyphicon glyphicon-tree-deciduous"></span>
                   Mushroom and Nether islands
                   <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
                 </a>
               </li>
               <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#" id="showRails" class="menuitem-noclose"><span class="glyphicon glyphicon-road"></span> Rails
+                <a role="menuitem" tabindex="-1" href="#" data-toggle-layer="civballs" class="menuitem-noclose"><span class="glyphicon glyphicon-comment"></span> Civballs by soraendo
                 <span class="glyphicon glyphicon-ok" style="color: green"></span>
                 </a>
               </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#" data-toggle-layer="rails" class="menuitem-noclose"><span class="glyphicon glyphicon-road"></span> Rails
+                <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
+                </a>
+              </li>
+              <li role="presentation">
+                <a role="menuitem" tabindex="-1" href="#" data-toggle-points="points" class="menuitem-noclose"><span class="glyphicon glyphicon-globe"></span> Cities, towns, farms, locations
+                <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
+                </a>
+              </li>
             </ul>
+            <button class="btn btn-default btn-sm" type="button" id="geturl">
+              <span class="glyphicon glyphicon-link"></span>
+            </button>
           </div>
         </div>
       </form>
@@ -55,5 +64,6 @@
     <script src="js/ol.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/civmap.js"></script>
+    <!--<script src="http://localhost:9966/js/main.js"></script>-->
   </body>
 </html>

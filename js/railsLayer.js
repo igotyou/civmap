@@ -50,7 +50,9 @@ exports.init = function(map) {
   map.addLayer(vectorLines);
 };
 
-var showRails = true;
+
+var showRails = false;
+vectorLines.setVisible(showRails);
 exports.toggle = function() {
   showRails = !showRails;
   vectorLines.setVisible(showRails);

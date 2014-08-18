@@ -15,7 +15,7 @@ var createTextStyle = function(feature, resolution, dom) {
 };
 
 var visible = (function() {
-  var visible = ['rails'];
+  var visible = ['civballs'];
   var r = {
     isVisible: function(name) {
       return visible.indexOf(name) !== -1;
@@ -40,6 +40,9 @@ var createPointStyleFunction = function() {
       return [];
     }
     if (!visible.isVisible('biomes') && feature.get('type') === PointType.biome) {
+      return [];
+    }
+    if (!visible.isVisible('points') && feature.get('type') !== PointType.biome) {
       return [];
     }
 

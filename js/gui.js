@@ -1,20 +1,16 @@
 var pointLayer = require('./pointLayer.js');
 module.exports = function(map) {
-  $('#showInactive').click(function(e) {
-    $('#showInactive').find('.glyphicon-ok').css({
-      opacity: pointLayer.toggleVisible('abandoned') ? 1 : 0
+  $('.dropdown-menu a[data-toggle-layer]').click(function(e) {
+    $(e.currentTarget).find('.glyphicon-ok').css({
+      opacity: require('./' + $(e.currentTarget).attr('data-toggle-layer') + 'Layer.js').toggle() ? 1 : 0
+    });
+  });
+  $('.dropdown-menu a[data-toggle-points]').click(function(e) {
+    $(e.currentTarget).find('.glyphicon-ok').css({
+      opacity: pointLayer.toggleVisible($(e.currentTarget).attr('data-toggle-points')) ? 1 : 0
     });
   });
 
-  $('#showBiome').click(function(e) {
-    $('#showBiome').find('.glyphicon-ok').css({
-      opacity: pointLayer.toggleVisible('biomes') ? 1 : 0
-    });
-  });
-  
-  $('#showRails').click(function(e) {
-    $('#showRails').find('.glyphicon-ok').css({opacity: require('./railsLayer.js').toggle() ? 1 : 0});
-  });
 
   $('#jumpHome').click(function() {
     var view = map.getView();
@@ -27,7 +23,7 @@ module.exports = function(map) {
     });
     var bounce = ol.animation.bounce({
       duration: duration,
-      resolution: 39135.75848201024,
+      resolution: 32,
       start: start
     });
     map.beforeRender(pan, bounce);

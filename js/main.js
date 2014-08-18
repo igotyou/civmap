@@ -6,6 +6,8 @@ require('./railsLayer.js').init(map);
 
 require('./pointLayer.js').init(map);
 
+require('./civballsLayer.js').init(map);
+
 require('./gui.js')(map);
 
 require('./editMode.js')(map);
