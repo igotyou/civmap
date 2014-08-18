@@ -51,7 +51,7 @@ exports.init = function(map) {
 };
 
 
-var showRails = false;
+var showRails = true;
 vectorLines.setVisible(showRails);
 exports.toggle = function() {
   showRails = !showRails;

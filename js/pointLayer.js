@@ -15,7 +15,7 @@ var createTextStyle = function(feature, resolution, dom) {
 };
 
 var visible = (function() {
-  var visible = ['civballs'];
+  var visible = ['points'];
   var r = {
     isVisible: function(name) {
       return visible.indexOf(name) !== -1;

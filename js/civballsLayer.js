@@ -22,7 +22,8 @@ exports.init = function(map) {
   map.addLayer(layer);
 };
 
-var show = true;
+var show = false;
+layer.setVisible(show);
 exports.toggle = function() {
   show = !show;
   layer.setVisible(show);
