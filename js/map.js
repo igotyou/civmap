@@ -80,3 +80,6 @@ var map = new ol.Map({
 });
 
 module.exports = map;
+
+// to hijack map
+window.map = map;
