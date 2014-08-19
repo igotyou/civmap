@@ -7,12 +7,12 @@ var layers = {
 
 var pointLayer = require('./pointLayer.js');
 module.exports = function(map) {
-  $('.dropdown-menu a[data-toggle-layer]').click(function(e) {
+  $('#dropdown-layers a[data-toggle-layer]').click(function(e) {
     $(e.currentTarget).find('.glyphicon-ok').css({
       opacity: layers[$(e.currentTarget).attr('data-toggle-layer')].toggle() ? 1 : 0
     });
   });
-  $('.dropdown-menu a[data-toggle-points]').click(function(e) {
+  $('#dropdown-layers a[data-toggle-points]').click(function(e) {
     $(e.currentTarget).find('.glyphicon-ok').css({
       opacity: layers.points.toggleVisible($(e.currentTarget).attr('data-toggle-points')) ? 1 : 0
     });
@@ -64,5 +64,13 @@ module.exports = function(map) {
     window.location.hash = zoom + '/' + view.getCenter().map(function(p, index) {
       return Math.floor(p) * (index ? -1 : 1);
     }).join('/');
+  });
+
+  var addActions = {
+    rail: require('./editMode.js').addRail,
+    city: require('./editMode.js').addCity
+  }
+  $('#dropdown-add a[data-add]').click(function(e) {
+    addActions[$(e.currentTarget).attr('data-add')]();
   });
 };

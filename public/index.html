@@ -19,48 +19,62 @@
           <select id="jump" class="form-control input-sm"><option disabled>Jump to...</option></select>
 
           <span class="dropdown">
-            <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown">
-              <span class="glyphicon glyphicon-align-justify"></span>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-form" role="menu" aria-labelledby="dropdownMenu1">
-              <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#" data-toggle-points="points" class="menuitem-noclose"><span class="glyphicon glyphicon-tower"></span> Cities, towns, farms, locations
-                <span class="glyphicon glyphicon-ok" style="color: green"></span>
-                </a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#" data-toggle-layer="rails" class="menuitem-noclose"><span class="glyphicon glyphicon-road"></span> Rails
-                <span class="glyphicon glyphicon-ok" style="color: green"></span>
-                </a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="#" data-toggle-points="abandoned" class="menuitem-noclose"/><span class="glyphicon glyphicon-picture"></span>
-                  Inactive cities
+            <div class="dropdown" style="display:inline" id="dropdown-layers">
+              <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-align-justify"></span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-form" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#" data-toggle-points="points" class="menuitem-noclose"><span class="glyphicon glyphicon-tower"></span> Cities, towns, farms, locations
+                  <span class="glyphicon glyphicon-ok" style="color: green"></span>
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#" data-toggle-layer="rails" class="menuitem-noclose"><span class="glyphicon glyphicon-road"></span> Rails
+                  <span class="glyphicon glyphicon-ok" style="color: green"></span>
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" href="#" data-toggle-points="abandoned" class="menuitem-noclose"/><span class="glyphicon glyphicon-picture"></span>
+                    Inactive cities
+                    <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" href="#" data-toggle-points="biomes" class="menuitem-noclose"/><span class="glyphicon glyphicon-tree-deciduous"></span>
+                    Mushroom and Nether islands
+                    <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#" data-toggle-layer="civballs" class="menuitem-noclose"><span class="glyphicon glyphicon-comment"></span> Civballs by soraendo
                   <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
-                </a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" href="#" data-toggle-points="biomes" class="menuitem-noclose"/><span class="glyphicon glyphicon-tree-deciduous"></span>
-                  Mushroom and Nether islands
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#" data-toggle-layer="lineout" class="menuitem-noclose"><span class="glyphicon glyphicon-globe"></span> Landmass lineout by kovio (experimental)
                   <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
-                </a>
-              </li>
-              <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#" data-toggle-layer="civballs" class="menuitem-noclose"><span class="glyphicon glyphicon-comment"></span> Civballs by soraendo
-                <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
-                </a>
-              </li>
-              
-              
-              <li role="presentation">
-                <a role="menuitem" tabindex="-1" href="#" data-toggle-layer="lineout" class="menuitem-noclose"><span class="glyphicon glyphicon-globe"></span> Landmass lineout by kovio (experimental)
-                <span class="glyphicon glyphicon-ok" style="color: green; opacity: 0"></span>
-                </a>
-              </li>
-            </ul>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
             <button class="btn btn-default btn-sm" type="button" id="geturl">
               <span class="glyphicon glyphicon-link"></span>
             </button>
+            <div class="dropdown" style="display:inline" id="dropdown-add">
+              <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu2" data-toggle="dropdown">
+                <span class="glyphicon glyphicon-plus"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#" data-add="rail" class="menuitem-noclose"><span class="glyphicon glyphicon-road"></span> Add rail line</a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#" data-add="city" class="menuitem-noclose"><span class="glyphicon glyphicon-tower"></span> Add point (city, town, farm, biome, locality)</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </form>

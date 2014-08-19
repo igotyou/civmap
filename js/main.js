@@ -12,4 +12,4 @@ require('./civballsLayer.js').init(map);
 
 require('./gui.js')(map);
 
-require('./editMode.js')(map);
+require('./editMode.js').init(map);

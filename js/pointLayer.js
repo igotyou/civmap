@@ -208,6 +208,10 @@ exports.jump = function(code) {
   view.setZoom(6);
 };
 
+exports.closestFeature = function(coords) {
+  return citiesSource.getClosestFeatureToCoordinate(coords);
+};
+
 var PointType = {
   'country': 'country',
   'state': 'state',
