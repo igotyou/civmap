@@ -2368,6 +2368,8 @@
 				-4763
 			]
 		}
-	}
+	},
+	{"type":"Feature","geometry":{"type":"Point","coordinates":[7695,-9590]},"properties":
+	{"type":"city","name":"Aincrad","code":"Ai","reddit":"<a href='http://www.reddit.com/r/civcraft_aincrad'>r/civcraft_aincrad</a>"}}
 ]
 }
