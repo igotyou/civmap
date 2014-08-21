@@ -1231,12 +1231,12 @@
 		"type": "Feature",
 		"properties": {
 			"name": "New Augusta",
-			"code": "Na",
+			"code": "NA",
 			"reddit": "<a href=\"http://www.reddit.com/r/NewAugusta\" target=\"_new\">r/NewAugusta<a></a></a>",
 			"map of town": "<a href=\"http://i.imgur.com/4t8CINr.png&apos;\" target=\"_new\">http://i...CINr.png<a></a></a>",
 			"wiki": "<a href=\"https://civcraft.org/doku.php/cities2/new_augusta&apos;\" target=\"_new\">https://..._augusta<a></a></a>",
 			"flag": "<img src=\"https://civcraft.org/lib/exe/fetch.php/templates/na.png\" style=\"width:50px;height:20px\">",
-			"abandoned": true,
+			"abandoned": false,
 			"type": "city"
 		},
 		"geometry": {
@@ -2370,6 +2370,22 @@
 		}
 	},
 	{"type":"Feature","geometry":{"type":"Point","coordinates":[7695,-9590]},"properties":
-	{"type":"city","name":"Aincrad","code":"Ai","reddit":"<a href='http://www.reddit.com/r/civcraft_aincrad'>r/civcraft_aincrad</a>"}}
+	{"type":"city","name":"Aincrad","code":"Ai","reddit":"<a href='http://www.reddit.com/r/civcraft_aincrad'>r/civcraft_aincrad</a>"}},
+	{
+		"type": "Feature",
+		"properties": {
+			"name": "Venice",
+			"code": "Ve",
+			"abandoned": false,
+			"type": "city"
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				-10000,
+				-3000
+			]
+		}
+	}
 ]
 }
