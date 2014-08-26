@@ -1,34 +1,28 @@
 Civcraft Map
 ============
 
-This is the repo of the civcraft map currently located at http://txapu.com
+This is the repo of the civcraft map currently located at http://txapu.com.
 
+The map is the combination of an older compilation of low-res tiles from http://civcraft.slimecraft.eu/map.php?z=4&y=-11145&x=-820 and a newer compilation of hi-res journeymap tiles.
 
-### Add tile data
+The map tileset is at `public/tiles/` and can be used with any XYZ tile (slippy) map such as OpenLayers. It does not contain tiles at all zoom levels or places, but it is getting more complete as more players map out the civcraft world and submit their data.
 
-Link or copy the journeymap data so that `data/day` points to or is a copy of `~/.minecraft/journeyMap/data/mp/<civcraft-ID>`. Then run `python journeymap.py`.
+The journeymap "master" tileset is at data/master. These tiles are in journeymap format (size and naming scheme), to add a player's journeymap tiles to it it has to be merged. When that is done, you can generate the map tilesets for all zoom levels with `journeymap.py`.
+
+### JourneyMap master tiles
+
+To add a player's data, put the journeymap tiles at `data/<name>` and run `python merge.py <name>` (from inside `data/`, `cd data`). This will merge the player's tiles into the master tileset. New tiles will be copied, and if alreadyexisting, tiles will be placed above or below depending on timestamp (newer on top). This prevents newer master tiles being overwritten by an older tileset.
+
+You can also force a tileset to be below no matter what timestamp with `python merge.py <name> under`, in case the texture colors vary slightly and you do not want to overwrite existing "good" pixels. There should also be an option to place tiles over, with `over` at some point.
+
+When done, the master tileset is ready to be used to generate the map tileset, and could also be copied back to journeymap so that you can use them in-game.
+
+### Map tilesets
+
+Run `python journeymap.py` from the repo root, and go plant some potatoes because it will take a while: the journeymap master tiles from `data/master` will be inserted on top of all existing map tiles inside `public/tiles/x/y/z.png`.
 
 ### Add other data
 
 Edit `cities.geojson` or `rails.geojson`. The structure of the "JSON objects" are in GeoJSON format.
 
-To add lines quickly, open the map and the javascript console and type `addInteraction()` then hit enter. Ypu can then draw a rail line clicking on the map. Double click to finish it, the GeoJSON feature will be printed in the console, ready to add to the file.
-
-TODO
-====
-
-#### Tile last-modified strategy
-
-Right now, due to how the project started being a scrape of civtransport map, last added journeymap tiles are always merged on top of existing data. Ideally, there should be one true "journeymap source tileset", with each tile conserving the timestamp when it was written by journeymap, so that other tiles can be merged on top or below depending on the timestamps. **This improvement is very important.**
-
-#### Add tools to add features
-
-Rails and "points" (more to that later). There should also be tools to edit existing features.
-
-#### Points instead of cities
-
-The layer and source the cities are currently in contain features both for cities and for things like biome info. It would be better to declare it as a "points" layer, where a point can simply mark a city, a biome, a landmark (including abandonded cities) or whatever.
-
-#### Geosharer
-
-Since there is a way to export geosharer data as journeymap, it should be trivial to plugin this into the map. The only difficult point might be timestamps of tiles.
+There is a tool built into the web client to place cities and rails, simply insert the result into the corresponding `.geojson` file.
