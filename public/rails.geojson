@@ -1682,6 +1682,8 @@
           ]
         ]
       }
-    }
+    },
+    {"type":"Feature","geometry":{"type":"LineString","coordinates":[[0,1946],[0,0]]},"properties":{"origin":"Carbon","destination":"Kappi"}},
+    {"type":"Feature","geometry":{"type":"LineString","coordinates":[[-12000,-1399],[-12000,-1574],[-11140,-1574],[-11140,-2049],[-10500,-2049],[-10500,-2524],[-10395,-2623],[-10400,-2951],[-10000,-2949],[-10000,-2999]]},"properties":{"origin":"Aeon","destination":"Venice","color":"#330080"}}
   ]
 }
