@@ -80,7 +80,7 @@ exports.addRail = function() {
 
     var json = geojson.writeFeature(e.feature);
     json.geometry.coordinates = json.geometry.coordinates.map(function(c) {
-      return [Math.floor(c[0]), Math.floor(c[1])];
+      return [Math.floor(c[0]), Math.floor(-c[1])];
     });
     map.removeInteraction(draw);
     alert(JSON.stringify(json));
@@ -130,8 +130,8 @@ exports.addCity = function() {
     
 
     var json = geojson.writeFeature(e.feature);
-    json.geometry.coordinates = json.geometry.coordinates.map(function(c) {
-      return Math.floor(c);
+    json.geometry.coordinates = json.geometry.coordinates.map(function(c, i) {
+      return Math.floor(c) * (i === 1 ? -1 : 1);
     });
     alert(JSON.stringify(json));
     
