@@ -7,9 +7,12 @@ import pdb
 
 dir = sys.argv[1]
 under = len(sys.argv) == 3 and sys.argv[2] == "under"
+over = len(sys.argv) == 3 and sys.argv[2] == "over"
 
 if under:
-	print "merging all tiles under current tileset"
+	print "merging all tiles UNDER current tileset"
+if over:
+	print "merging all tiles OVER current tileset"
 
 for x in range(-26, 26):
 	print x
@@ -28,7 +31,7 @@ for x in range(-26, 26):
 			continue
 
 		desttime = os.path.getmtime(dest)
-		if under or os.path.getmtime(source) < desttime:
+		if not over and (under or os.path.getmtime(source) < desttime):
 			# print "older: %s %d" % (source, os.path.getmtime(dest))
 			call("composite -compose Dst_Over %s %s %s" % (source, dest, dest), shell=True)
 			# print "under %s" % source
